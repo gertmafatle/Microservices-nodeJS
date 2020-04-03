@@ -1,0 +1,24 @@
+{
+    "apps": [
+        {
+            "name"      : "api-gateway",
+            "script"    : "Api-gateway/app.js",
+            "watch"     : "Api-gateway/app.js"
+        },
+        {
+            "name"      : "service",
+            "script"    : "service/app.js",
+            "watch"     : "service/app.js"
+        },
+        {
+            "name"      : "order",
+            "script"    : "order/app.js",
+            "watch"     : "order/v.js"
+        },
+        {
+            "name"      : "delivery",
+            "script"    : "delivery/app.js",
+            "watch"     : "delivery/app.js"
+        }
+    ]
+}
